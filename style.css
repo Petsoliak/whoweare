@@ -1,0 +1,183 @@
+body {
+    background-color: #f6f6f6;
+    background:linear-gradient(to right, #f6f6f6 50%, #f3e2dd 0);
+    background-size: 160px 100%;
+}
+
+h1 {
+    font-size: 34px;
+letter-spacing: 5px;
+color: #3c3c3c;
+font-family: "Lato";
+font-weight: 700;
+text-align: center;
+margin-top: 90px;
+margin-bottom: 20px;
+}
+
+hr {
+    width: 45px;
+height: 4px;
+background-color: #dddbdb;
+opacity: 0.7;
+border-radius: 6px;
+border: none;
+}
+
+
+p.lorem {
+    margin: 50px auto;
+    width: 570px;
+height: 50px;
+font-size: 16px;
+line-height: 24px;
+color: #3c3c3c;
+font-family: "Lato";
+font-weight: 300;
+text-align: center;
+
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.sign { position: absolute;
+    top: 325px;
+    }
+
+.sign span.top {
+    font-size: 18px;
+line-height: 18px;
+color: #282528;
+font-family: "Lato";
+font-weight: 700;
+} 
+
+.sign span.bottom {
+    font-size: 14px;
+line-height: 14px;
+color: #282528;
+font-family: "Lato";
+font-weight: 400;
+opacity: 0.6;
+}
+
+.socialmedia {
+    display:none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 299px;
+    width: 296px;
+    background-color: #18b5dc;
+}
+
+.twiter { 
+    position: absolute;
+    top: 40%;
+    left: 87px;
+    width: 42px;
+height: 42px;
+background-color: #5ecbe7;
+}
+
+.fb {
+    position: absolute;
+    top: 40%;
+    left: 133px;
+    width: 42px;
+height: 42px;
+background-color: #5acce9;
+}
+
+.google {
+    position: absolute;
+    top: 40%;
+    left: 179px;
+    width: 42px;
+height: 42px;
+background-color: #5ecbe7;
+}
+
+.twiter img{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.google img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.fb img {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.john {
+    position: relative;
+    margin: 15px 15px;
+}
+
+.alex {
+    position: relative;
+    margin: 15px 15px;
+}
+
+.elena {
+    position: relative;
+    margin: 15px 15px;
+}
+
+.lily {
+    position: relative;
+margin: 15px 15px;
+}
+
+.john:hover .socialmedia{
+     display: flex;
+     cursor: pointer;
+}
+
+.alex:hover .socialmedia{
+    display: flex;
+    cursor: pointer;
+}
+
+.elena:hover .socialmedia{
+    display: flex;
+    cursor: pointer;
+}
+
+.lily:hover .socialmedia{
+    display: flex;
+    cursor: pointer;
+}
+
+.twiter:hover {
+    display: flex;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.fb:hover {
+    display: flex;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.google:hover {
+    display: flex;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+*{transition: all .1s ease-in;}
